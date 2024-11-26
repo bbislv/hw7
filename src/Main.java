@@ -13,16 +13,19 @@ public class Main {
             month++;
             System.out.println("Месяц " + month + ", сумма накоплений равна " + sum + " рублей");
         }
+
         //task 2
         System.out.println("task 2");
         int number = 0;
         while (number < 10) {
             number++;
-            System.out.println(number + " ");
+            System.out.print(number + " ");
         }
+        System.out.println();
         for (; number >= 1; number--) {
-            System.out.println(number + " ");
+            System.out.print(number + " ");
         }
+        System.out.println();
         //task 3
         System.out.println("task 3");
         int population = 12000000;
@@ -51,7 +54,7 @@ public class Main {
         while (sum < desiredSum) {
             sum = (int) (sum * (1 + percent));
             month++;
-            if (month % 6 == 0);
+            if (month % 6 == 0)
             System.out.println("Месяц " + month + ", сумма накоплений равна " + sum + " рублей");}
 
         //task 6
@@ -62,7 +65,7 @@ public class Main {
         while (month < months) {
             sum = (int) (sum * (1 + percent));
             month++;
-            if (month % 6 == 0);
+            if (month % 6 == 0)
             System.out.println("Месяц " + month + ", сумма накоплений равна " + sum + " рублей");}
 
         //task 7
